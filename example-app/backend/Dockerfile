@@ -6,7 +6,7 @@ COPY . .
 
 RUN go build
 
-ENV REQUEST_ORIGIN=http://localhost:5001
+ENV REQUEST_ORIGIN=http://localhost:8000
 
 EXPOSE 8080
 
