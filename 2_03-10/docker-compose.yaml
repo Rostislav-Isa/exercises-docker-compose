@@ -29,3 +29,11 @@ services:
     depends_on:
       - backend
       - frontend
+    networks:
+      - default
+      - public
+
+networks:
+  default:
+    internal: true
+  public:
